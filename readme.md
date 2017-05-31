@@ -9,13 +9,13 @@ The scripts in this folder are used to:
 
 ## Files:
 
-build_points.csv - A list of points for the `BuildModels.py` script to build for
-predict_points.csv - A list of points for the `PredictandStore.py` script to predict and store for
-BuildModels.py - Run this script to build models for the list of points in the build_points.csv file. Saves model file in the /models folder
-PredictandStore.py - Run this script to predict and store results for the points in the predict_points.csv file
-/models - Folder containing the model files
-/Code - Folder containing code for pulling PI tags, building model and storing reults
-LoadForecast.log - Logs the timestamp and results of the BuildModels.py and PredictandStore.py scripts. Use for debugging.
+- build_points.csv - A list of points for the `BuildModels.py` script to build for
+- predict_points.csv - A list of points for the `PredictandStore.py` script to predict and store for
+- BuildModels.py - Run this script to build models for the list of points in the build_points.csv file. Saves model file in the /models folder
+- PredictandStore.py - Run this script to predict and store results for the points in the predict_points.csv file
+- /models - Folder containing the model files
+- /Code - Folder containing code for pulling PI tags, building model and storing reults
+- LoadForecast.log - Logs the timestamp and results of the BuildModels.py and PredictandStore.py scripts. Use for debugging.
 
 ## How to use:
 - To Build New Models
