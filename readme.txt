@@ -1,4 +1,4 @@
-# PEPCO LOAD FORECAST PYTHON SCRIPTS
+# LOAD FORECAST WITH OSISOFT PI USING PYTHON
 Readme.txt
 
 The scripts in this folder are used to:
@@ -21,19 +21,17 @@ LoadForecast.log - Logs the timestamp and results of the BuildModels.py and Pred
 - To Build New Models
 	- Open the build_points.csv and add the point names you want to predict. Each point on its own line, no commas.
 	- open a powershell of command prompt.
-	  >> cd D:
-	  >> cd PepcoLoadForecastScripts\
+	- cd to the directory containing the scripts
 	- run the script
-	  >> python BuildModels.py
+	  `>> python BuildModels.py`
 
 
 - To Predict and Store Reults in PI
 	- Open the predict_points.csv and add the point names you want to predict. Each point on its own line, no commas.
 	- open a powershell of command prompt.
-	  >> cd D:
-	  >> cd PepcoLoadForecastScripts\
+	- cd to the directory containing the scripts
 	- run the script
-	  >> python PredictandStore.py
+	  `>> python PredictandStore.py`
 
 ## Questions? Contact Rob Mulla - rob.mulla@gmail.com
 
